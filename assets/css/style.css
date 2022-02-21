@@ -51,7 +51,7 @@ body{
     font-size: 25px;
     font-weight: 500;
     color: #1302fb;
-    padding: 15px 30px;
+    padding: 20px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -242,7 +242,7 @@ section .option_list .option .icon{
 .option_list .option .icon.cross{
     color: #a42834;
     background: #f8d7da;
-    border-color: #a42834;
+    border-color:#0206fb
 }
 footer{
     height: 60px;
