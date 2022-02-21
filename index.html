@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<!-- Highscore link-->
+
+    <div class="scores"><a href="highscore.html">View Highscores</a></div>
+
+
+ <!-- Quiz Start Button-->
+
+    <div class="start_button"><button>Start Quiz</button></div>
+
+    <!-- Homepage quiz rules-->
+
+    <div class="form_box">
+        <div class="information-title"><span>Timer Quiz Rules</span></div>
+        
+        <div class="info-list">
+            <div class="rules">This Quiz is based on your knowledge on Capital cities of the United States! </div>
+            
+            <div class="rules">1. You will have only <span>20 seconds</span> per each question.</div>
+            <div class="rules">2. Once you select your answer, it can't be undone.</div>
+            <div class="rules">3. You can't select any option once time goes off.</div>
+            <div class="rules">4. You can't exit from the Quiz while you're playing.</div>
+        </div>
+        <div class="buttons">
+
+    <!--Quiz Start Buttons -->
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Timer Quiz </div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+
+            </div>
+            <div class="option_list">
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+
+
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+
+        </div>
+        <div>
+            <p>
+                Enter Your initials: <input type="text" id="initials" max="3" />
+              </p>
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay </button>
+            <button class="quit">Quit</button>
+            <button id="save">Save Score</button>
+        </div>
+    </div>
+
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/javascript.js"></script>
+</body>
+</html>
